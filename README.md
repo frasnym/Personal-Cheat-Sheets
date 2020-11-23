@@ -1,6 +1,11 @@
 # Personal Cheat Sheets
 
 <ul>
+    <li><b>Useful Websites</b>
+        <ul>
+            <li><a href="#usefulWebsite">Useful Websites</a></li>
+        </ul>
+    </li>
     <li><b>Flutter</b>
         <ul>
             <li><a href="#fontAssetsSize">Font Assets Size</a></li>
@@ -19,6 +24,23 @@
         </ul>
     </li>
 </ul>
+
+<h2 id="usefulWebsite">Useful Websites</h2>
+<ul>
+    <li>
+        <a href="https://markdownlivepreview.com/" target=_blank>markdownlivepreview</a> : as the name said, live preview our markdown code (.md)
+    </li>
+    <li>
+        <a href="https://www.cleanpng.com/" target=_blank>cleanpng</a> : transparent png images for your websites
+    </li>
+    <li>
+        <a href="https://cssgr.id/" target=_blank>cssgr</a> : for rapid CSS grid layout
+    </li>
+    <li>
+        <a href="https://www.colorsandfonts.com/" target=_blank>colorsandfonts</a> : color and typography Tools for web developer
+    </li>
+</ul>
+
 
 <h2 id="fontAssetsSize">Flutter - Font Assets Size</h2>
 
