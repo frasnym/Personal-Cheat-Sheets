@@ -19,6 +19,7 @@
     </li>
     <li><b>Laravel</b>
         <ul>
+            <li><a href="#createProjectLaravel">Create Project</a></li>
             <li><a href="#artisanStartProject">Start Server</a></li>
             <li><a href="#artisanMakeMigration">Make Migration</a></li>
             <li><a href="#artisanMigrate">Migrate</a></li>
@@ -120,6 +121,10 @@ app.listen(port, () => {
 </section>
 
 <section id="laravel">
+    <div id="createProjectLaravel">
+        <h2>Laravel - Create Project</h2>
+        <pre><code>composer create-project --prefer-dist laravel/laravel [PROJECT_NAME]</code></pre>
+    </div>
     <div id="artisanStartProject">
         <h2>Laravel - Start Server</h2>
         <pre><code>php -S localhost:8000 -t public</code></pre>
