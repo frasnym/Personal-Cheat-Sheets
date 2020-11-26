@@ -14,6 +14,7 @@
     </li>
     <li><b>Flutter</b>
         <ul>
+            <li><a href="#createProjectFlutter">Create Project</a></li>
             <li><a href="#fontAssetsSize">Font Assets Size</a></li>
         </ul>
     </li>
@@ -104,6 +105,10 @@ app.listen(port, () => {
 </section>
 
 <section id="flutter">
+    <div id="createProjectFlutter">
+        <h2>Flutter - Create Project</h2>
+        <pre><code>flutter create [PROJECT_NAME]</code></pre>
+    </div>
     <div id="fontAssetsSize">
         <h2>Flutter - Font Assets Size</h2>
         <ul>
