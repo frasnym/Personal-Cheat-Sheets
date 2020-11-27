@@ -98,6 +98,10 @@ app.listen(port, () => {
                 Change localhost <b>base_url</b> if used in your project directory
             </li>
             <li>
+                Set config on Heroku
+                <pre><code>heroku config:set key=value</code></pre>
+            </li>
+            <li>
                 Initialize git for heroku
                 <br><code>git init</code>
                 <br><code>heroku git:remote -a [PROJECT_NAME]</code>
