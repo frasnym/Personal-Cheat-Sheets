@@ -26,7 +26,7 @@
     <li><b>Laravel</b>
         <ul>
             <li><a href="#createProjectLaravel">Create Project</a></li>
-            <li><a href="#artisanStartProject">Start Server</a></li>
+            <li><a href="#startServerLaravel">Start Server</a></li>
             <li><a href="#artisanMakeMigration">Make Migration</a></li>
             <li><a href="#artisanMigrate">Migrate</a></li>
         </ul>
@@ -34,6 +34,14 @@
     <li><b>Lumen</b>
         <ul>
             <li><a href="#createProjectLumen">Create Project</a></li>
+            <li><a href="#startServerLumen">Start Server</a></li>
+        </ul>
+    </li>
+    <li><b>Scrapy</b>
+        <ul>
+            <li><a href="#createProjectScrapy">Create Project</a></li>
+            <li><a href="#startShellScrapy">Start Shell</a></li>
+            <li><a href="#startCrawlScrapy">Start Crawl</a></li>
         </ul>
     </li>
 </ul>
@@ -149,9 +157,9 @@ app.listen(port, () => {
         <h2>Laravel - Create Project</h2>
         <pre><code>composer create-project --prefer-dist laravel/laravel [PROJECT_NAME]</code></pre>
     </div>
-    <div id="artisanStartProject">
+    <div id="startServerLaravel">
         <h2>Laravel - Start Server</h2>
-        <pre><code>php -S localhost:8000 -t public</code></pre>
+        <pre><code>php artisan serve</code></pre>
     </div>
     <div id="artisanMakeMigration">
         <h2>Laravel - Make Migration</h2>
@@ -170,5 +178,24 @@ app.listen(port, () => {
     <div id="createProjectLumen">
         <h2>Lumen - Create Project</h2>
         <pre><code>composer create-project — prefer-dist laravel/lumen [PROJECT_NAME]</code></pre>
+    </div>
+    <div id="startServerLumen">
+        <h2>Lumen - Start Server</h2>
+        <pre><code>php -S localhost:8000 -t public</code></pre>
+    </div>
+</section>
+
+<section id="scrapy">
+    <div id="createProjectScrapy">
+        <h2>Scrapy - Create Project</h2>
+        <pre><code>scrapy startproject [PROJECT_NAME]</code></pre>
+    </div>
+    <div id="startShellScrapy">
+        <h2>Scrapy - Start Shell</h2>
+        <pre><code>scrapy shell [URL]</code></pre>
+    </div>
+    <div id="startCrawlScrapy">
+        <h2>Scrapy - Start Crawl</h2>
+        <pre><code>scrapy crawl [SPIDER_NAME]</code></pre>
     </div>
 </section>
