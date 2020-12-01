@@ -159,6 +159,28 @@ app.listen(port, () => {
             <li>
                 Change package indetifier: <b>com.example.name_of_app</b> in all places
             </li>
+            <li>
+                Setup icons & splash screen
+                <ul>
+                    <li>Add <b>flutter_launcher_icons</b> package to dev_dependencies</li>
+                    <li>Setup configuration on pubspec.yaml <b>flutter_icons</b>: image_path, adaptive_icon_background, adaptive_icon_foreground</li>
+                    <li>
+                        Generate icons using command
+                        <code>flutter pub run flutter_launcher_icons:main</code>
+                        The icon will be generated on directory: android\app\src\main\res (android)
+                    </li>
+                    <li>Configure booting app screen: <b>android\app\src\main\res\drawable\launch_background.xml</b></li>
+                    <li>Edit color value: <b>android\app\src\main\res\values\colors.xml</b></li>
+                    <li><a href="https://flutter.dev/docs/deployment/android" target="_blank" rel="noopener noreferrer">Sign keystore</a></li>
+                    <li>key.properties on android folder</li>
+                    <li>Configure signing in gradle</li>
+                    <li>Change the version on pubspec.yaml</li>
+                    <li>
+                        Build app for production
+                        <code>flutter build appbundle</code>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </section>
