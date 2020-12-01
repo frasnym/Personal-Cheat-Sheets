@@ -16,6 +16,7 @@
         <ul>
             <li><a href="#createProjectFlutter">Create Project</a></li>
             <li><a href="#fontAssetsSize">Font Assets Size</a></li>
+            <li><a href="#deployPlayStoreFlutter">Deploy Google PlayStore</a></li>
         </ul>
     </li>
     <li><b>React Native</b>
@@ -141,6 +142,23 @@ app.listen(port, () => {
             <li>w700 Bold</li>
             <li>w800 Extra-bold</li>
             <li>w900 Black, the most thick</li>
+        </ul>
+    </div>
+    <div id="deployPlayStoreFlutter">
+        <h2>Flutter - Deploy Google PlayStore</h2>
+        <ul>
+            <li>
+                Set name of the app: <b>android:label</b>
+                <code>android\app\src\main\AndroidManifest.xml</code>
+            </li>
+            <li>
+                Set app permission. Example: <i><uses-permission android:name="android.permission.INTERNET"/></i>
+                From: <code>android\app\src\debug\AndroidManifest.xml</code>
+                To: <code>android\app\src\main\AndroidManifest.xml</code>
+            </li>
+            <li>
+                Change package indetifier: <b>com.example.name_of_app</b> in all places
+            </li>
         </ul>
     </div>
 </section>
