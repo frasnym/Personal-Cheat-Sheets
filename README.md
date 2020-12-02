@@ -9,7 +9,7 @@
     <li><b>NodeJS</b>
         <ul>
             <li><a href="#initializeProjectNodeJS">Initialize Project</a></li>
-            <li><a href="#gitgnoreNodeJS">.gitgnore</a></li>
+            <li><a href="#gitignoreNodeJS">.gitignore</a></li>
             <li><a href="#deployToHerokuNodeJS">Deploy to HEROKU</a></li>
         </ul>
     </li>
@@ -85,8 +85,8 @@
             </li>
         </ul>
     </div>
-    <div id="gitgnoreNodeJS">
-        <h2>NodeJS - .gitgnore</h2>
+    <div id="gitignoreNodeJS">
+        <h2>NodeJS - .gitignore</h2>
         <pre><code># Common
 node_modules
 build
