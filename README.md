@@ -23,6 +23,7 @@
     <li><b>React JS</b>
         <ul>
             <li><a href="#createProjectReact">Create Project</a></li>
+            <li><a href="#deployGithubPagesReactJS">Deploy to Github Pages</a></li>
         </ul>
     </li>
     <li><b>React Native</b>
@@ -204,6 +205,37 @@ app.listen(port, () => {
     <div id="createProjectReact">
         <h2>React JS - Create Project</h2>
         <pre><code>npx create-react-app [PROJECT_NAME]</code></pre>
+    </div>
+    <div id="deployGithubPagesReactJS">
+        <h2>React JS - Deploy to Github Pages</h2>
+        <ol>
+            <li>
+                Create your github repository
+            </li>
+            <li>
+                Add remote to your project
+            </li>
+            <li>
+                Install gh-pages as devDependencies
+                <pre><code>npm i gh-pages --save-dev</code></pre>
+            </li>
+            <li>
+                Edit your <b>package.json</b> file, add <b>homepage</b> at top
+                <pre><code>"homepage": "https://[GITHUB_USERNAME].github.io/[REPOSITORY_NAME]",</code></pre>
+            </li>
+            <li>
+                Add this 2 lines of code on <b>package.json</b>, on <b>scripts</b>
+                <pre><code>"predeploy": "npm run build",
+"deploy": "gh-pages -d build",</code></pre>
+            </li>
+            <li>
+                Run command
+                <pre><code>npm run deploy</code></pre>
+            </li>
+            <li>
+                Push your work to github
+            </li>
+        </ol>
     </div>
 </section>
 
