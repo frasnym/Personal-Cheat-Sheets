@@ -6,7 +6,7 @@
             <li><a href="#usefulWebsite">Useful Websites</a></li>
         </ul>
     </li>
-    <li><b>NodeJS</b>
+    <li><b>Node JS</b>
         <ul>
             <li><a href="#initializeProjectNodeJS">Initialize Project</a></li>
             <li><a href="#gitignoreNodeJS">.gitignore</a></li>
@@ -18,6 +18,11 @@
             <li><a href="#createProjectFlutter">Create Project</a></li>
             <li><a href="#fontAssetsSize">Font Assets Size</a></li>
             <li><a href="#deployPlayStoreFlutter">Deploy Google PlayStore</a></li>
+        </ul>
+    </li>
+    <li><b>React JS</b>
+        <ul>
+            <li><a href="#createProjectReact">Create Project</a></li>
         </ul>
     </li>
     <li><b>React Native</b>
@@ -192,6 +197,13 @@ app.listen(port, () => {
                 </ul>
             </li>
         </ul>
+    </div>
+</section>
+
+<section id="react_js">
+    <div id="createProjectReact">
+        <h2>React JS - Create Project</h2>
+        <pre><code>npx create-react-app [PROJECT_NAME]</code></pre>
     </div>
 </section>
 
