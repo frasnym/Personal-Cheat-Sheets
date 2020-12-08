@@ -235,6 +235,18 @@ app.listen(port, () => {
             <li>
                 Push your work to github
             </li>
+            <li>
+                If you are using <b>create-react-app</b> with <b>routing</b>. Try this: <a target='_blank' href='https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2'>Referrence</a>
+                <pre><code>import { Route, HashRouter } from "react-router-dom";
+function App() {
+	return (
+		< HashRouter basename="/">
+			< Route exact path="/" component={HomePage} />
+			< Route path="/about" component={AboutPage} />
+		< /HashRouter>
+	);
+}</code></pre>
+            </li>
         </ol>
     </div>
 </section>
