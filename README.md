@@ -205,6 +205,8 @@ app.listen(port, () => {
     <div id="createProjectReact">
         <h2>React JS - Create Project</h2>
         <pre><code>npx create-react-app [PROJECT_NAME]</code></pre>
+        <b><i>optional:</i></b>
+        <pre><code>npm i react-bootstrap react-icons react-router-dom react-dom redux react-redux redux-thunk</code></pre>
     </div>
     <div id="deployGithubPagesReactJS">
         <h2>React JS - Deploy to Github Pages</h2>
