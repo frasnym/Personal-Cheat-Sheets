@@ -54,8 +54,8 @@
     </li>
 </ul>
 
-<section id="usefulWebsite">
-    <h2>Useful Websites</h2>
+<section>
+    <h2 id="usefulWebsite">Useful Websites</h2>
     <ul>
         <li>
             <a href="https://markdownlivepreview.com/" target=_blank>markdownlivepreview</a> : as the name said, live
