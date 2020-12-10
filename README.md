@@ -24,6 +24,7 @@
         <ul>
             <li><a href="#createProjectReact">Create Project</a></li>
             <li><a href="#deployGithubPagesReactJS">Deploy to Github Pages</a></li>
+            <li><a href="#routerDOMNetlifySettingReactJS">Router DOM Netlify Setting</a></li>
         </ul>
     </li>
     <li><b>React Native</b>
@@ -248,6 +249,20 @@ function App() {
 		< /HashRouter>
 	);
 }</code></pre>
+            </li>
+        </ol>
+    </div>
+    <div id="routerDOMNetlifySettingReactJS">
+        <h2>React JS - Router DOM Netlify Setting</h2>
+        <ol>
+            <li>Create a file with name <b>netlify.toml</b> on your root folder</li>
+            <li>
+                Add this code
+                <pre><code>[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false</code></pre>
             </li>
         </ol>
     </div>
