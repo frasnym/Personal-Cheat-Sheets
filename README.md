@@ -46,6 +46,13 @@
             <li><a href="#startServerLumen">Start Server</a></li>
         </ul>
     </li>
+    <li><b>Docker</b>
+        <ul>
+            <li><a href="#dockerfiletemplate">Dockerfile Template</a></li>
+            <li><a href="#buildContainerDocker">Build Container</a></li>
+            <li><a href="#runBasedOnImage">Run Based on Image</a></li>
+        </ul>
+    </li>
     <li><b>Scrapy</b>
         <ul>
             <li><a href="#createProjectScrapy">Create Project</a></li>
@@ -305,6 +312,26 @@ function App() {
     <div id="startServerLumen">
         <h2>Lumen - Start Server</h2>
         <pre><code>php -S localhost:8000 -t public</code></pre>
+    </div>
+</section>
+
+<section id="docker">
+    <div id="dockerfiletemplate">
+        <h2>Docker - Dockerfile Template</h2>
+        <pre><code>FROM node<br>
+WORKDIR /app<br>
+COPY . /app<br>
+RUN npm install<br>
+EXPOSE 80<br>
+CMD [ "node", "server.js" ]</code></pre>
+    </div>
+    <div id="buildContainerDocker">
+        <h2>Docker - Build Container</h2>
+        <pre><code>docker build</code></pre>
+    </div>
+    <div id="runBasedOnImage">
+        <h2>Docker - Run Based on Image</h2>
+        <pre><code>docker run -p 3000:80 [IMAGE_ID]</code></pre>
     </div>
 </section>
 
