@@ -51,6 +51,8 @@
             <li><a href="#dockerfiletemplate">Dockerfile Template</a></li>
             <li><a href="#buildContainerDocker">Build Container</a></li>
             <li><a href="#runBasedOnImage">Run Based on Image</a></li>
+            <li><a href="#getRunningProcessDocker">Get Running Process</a></li>
+            <li><a href="#stopProcessDocker">Stop Running Process</a></li>
         </ul>
     </li>
     <li><b>Scrapy</b>
@@ -332,6 +334,14 @@ CMD [ "node", "server.js" ]</code></pre>
     <div id="runBasedOnImage">
         <h2>Docker - Run Based on Image</h2>
         <pre><code>docker run -p 3000:80 [IMAGE_ID]</code></pre>
+    </div>
+    <div id="getRunningProcessDocker">
+        <h2>Docker - Get Running Process</h2>
+        <pre><code>docker ps</code></pre>
+    </div>
+    <div id="getRunningProcessDocker">
+        <h2>Docker - Stop Running Process</h2>
+        <pre><code>docker stop [CONTAINER_NAME]</code></pre>
     </div>
 </section>
 
