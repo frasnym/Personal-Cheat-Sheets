@@ -339,7 +339,7 @@ CMD [ "node", "server.js" ]</code></pre>
         <h2>Docker - Get Running Container Process</h2>
         <pre><code>docker ps</code></pre>
     </div>
-    <div id="getRunningProcessDocker">
+    <div id="stopProcessDocker">
         <h2>Docker - Stop Running Container Process</h2>
         <pre><code>docker stop [CONTAINER_NAME]</code></pre>
     </div>
