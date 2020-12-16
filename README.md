@@ -329,7 +329,7 @@ CMD [ "node", "server.js" ]</code></pre>
     </div>
     <div id="buildContainerDocker">
         <h2>Docker - Build Custom Image</h2>
-        <pre><code>docker build</code></pre>
+        <pre><code>docker build .</code></pre>
     </div>
     <div id="runBasedOnImage">
         <h2>Docker - Run Container Based on Image</h2>
