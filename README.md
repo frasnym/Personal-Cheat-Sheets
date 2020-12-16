@@ -49,10 +49,10 @@
     <li><b>Docker</b>
         <ul>
             <li><a href="#dockerfiletemplate">Dockerfile Template</a></li>
-            <li><a href="#buildContainerDocker">Build Container</a></li>
-            <li><a href="#runBasedOnImage">Run Based on Image</a></li>
-            <li><a href="#getRunningProcessDocker">Get Running Process</a></li>
-            <li><a href="#stopProcessDocker">Stop Running Process</a></li>
+            <li><a href="#buildContainerDocker">Build Custom Image</a></li>
+            <li><a href="#runBasedOnImage">Run Container Based on Image</a></li>
+            <li><a href="#getRunningProcessDocker">Get Running Container Process</a></li>
+            <li><a href="#stopProcessDocker">Stop Running Container Process</a></li>
         </ul>
     </li>
     <li><b>Scrapy</b>
@@ -328,19 +328,19 @@ EXPOSE 80<br>
 CMD [ "node", "server.js" ]</code></pre>
     </div>
     <div id="buildContainerDocker">
-        <h2>Docker - Build Container</h2>
+        <h2>Docker - Build Custom Image</h2>
         <pre><code>docker build</code></pre>
     </div>
     <div id="runBasedOnImage">
-        <h2>Docker - Run Based on Image</h2>
+        <h2>Docker - Run Container Based on Image</h2>
         <pre><code>docker run -p 3000:80 [IMAGE_ID]</code></pre>
     </div>
     <div id="getRunningProcessDocker">
-        <h2>Docker - Get Running Process</h2>
+        <h2>Docker - Get Running Container Process</h2>
         <pre><code>docker ps</code></pre>
     </div>
     <div id="getRunningProcessDocker">
-        <h2>Docker - Stop Running Process</h2>
+        <h2>Docker - Stop Running Container Process</h2>
         <pre><code>docker stop [CONTAINER_NAME]</code></pre>
     </div>
 </section>
