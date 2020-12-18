@@ -62,6 +62,11 @@
             <li><a href="#startCrawlScrapy">Start Crawl</a></li>
         </ul>
     </li>
+    <li><b>CSS</b>
+        <ul>
+            <li><a href="#hoverCSS">Hover CSS</a></li>
+        </ul>
+    </li>
 </ul>
 
 <section>
@@ -357,5 +362,19 @@ CMD [ "node", "server.js" ]</code></pre>
     <div id="startCrawlScrapy">
         <h2>Scrapy - Start Crawl</h2>
         <pre><code>scrapy crawl [SPIDER_NAME]</code></pre>
+    </div>
+</section>
+
+<section id="css">
+    <div id="hoverCSS">
+        <h2>CSS - Hover CSS</h2>
+        If the cube is directly inside the container:
+        <pre><code>#container:hover > #cube { background-color: yellow; }</code></pre>
+        If cube is next to (after containers closing tag) the container:
+        <pre><code>#container:hover + #cube { background-color: yellow; }</code></pre>
+        If the cube is somewhere inside the container:
+        <pre><code>#container:hover #cube { background-color: yellow; }</code></pre>
+        If the cube is a sibling of the container:
+        <pre><code>#container:hover ~ #cube { background-color: yellow; }</code></pre>
     </div>
 </section>
