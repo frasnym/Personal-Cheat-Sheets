@@ -67,6 +67,11 @@
             <li><a href="#hoverCSS">Hover CSS</a></li>
         </ul>
     </li>
+    <li><b>AutoCannon</b>
+        <ul>
+            <li><a href="#GETRequestAutoCannon">GET Request AutoCannon</a></li>
+        </ul>
+    </li>
 </ul>
 
 <section>
@@ -376,5 +381,18 @@ CMD [ "node", "server.js" ]</code></pre>
         <pre><code>#container:hover #cube { background-color: yellow; }</code></pre>
         If the cube is a sibling of the container:
         <pre><code>#container:hover ~ #cube { background-color: yellow; }</code></pre>
+    </div>
+</section>
+
+<section id="autocannon">
+    <div id="GETRequestAutoCannon">
+        <h2>AutoCannon - GET Request AutoCannon</h2>
+        <pre><code>autocannon -c 8 -a 100000 -t 300 http://localhost:3000/getTimeStamp</code></pre>
+        <pre><code>-c/--connections NUM
+        The number of concurrent connections to use. default: 10.
+-a/--amount NUM
+        The amount of requests to make before exiting the benchmark. If set, duration is ignored.
+-t/--timeout NUM
+        The number of seconds before timing out and resetting a connection. default: 10</code></pre>
     </div>
 </section>
