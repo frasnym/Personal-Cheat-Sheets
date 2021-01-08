@@ -299,6 +299,10 @@ function App() {
             <li>
                 Overwrite index.html? => NO
             </li>
+            <li>
+                Deploy
+                <pre><code>firebase deploy</code></pre>
+            </li>
         </ol>
     </div>
     <div id="routerDOMNetlifySettingReactJS">
