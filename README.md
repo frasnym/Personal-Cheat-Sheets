@@ -24,6 +24,7 @@
         <ul>
             <li><a href="#createProjectReact">Create Project</a></li>
             <li><a href="#deployGithubPagesReactJS">Deploy to Github Pages</a></li>
+            <li><a href="#deployFirebaseReactJS">Deploy to Firebase</a></li>
             <li><a href="#routerDOMNetlifySettingReactJS">Router DOM Netlify Setting</a></li>
         </ul>
     </li>
@@ -271,6 +272,35 @@ function App() {
             </li>
         </ol>
     </div>
+    <div id="deployFirebaseReactJS">
+        <h2>React JS - Deploy to Firebase</h2>
+        <ol>
+            <li>
+                Install tools
+                <pre><code>npm install -g firebase-tools</code></pre>
+            </li>
+            <li>
+                Login
+                <pre><code>firebase login</code></pre>
+            </li>
+            <li>
+                Login
+                <pre><code>firebase login</code></pre>
+            </li>
+            <li>
+                Create Project: on firebase console or via terminal
+            </li>
+            <li>
+                What do you want to use as your public directory? (public) => build
+            </li>
+            <li>
+                SPA? => yes
+            </li>
+            <li>
+                Overwrite index.html? => NO
+            </li>
+        </ol>
+    </div>
     <div id="routerDOMNetlifySettingReactJS">
         <h2>React JS - Router DOM Netlify Setting</h2>
         <ol>
@@ -366,7 +396,7 @@ CMD [ "node", "server.js" ]</code></pre>
     </div>
     <div id="startCrawlScrapy">
         <h2>Scrapy - Start Crawl</h2>
-        <pre><code>scrapy crawl [SPIDER_NAME]</code></pre>
+        <pre><code>scrapy crawl [SPIDER_NAME]</code></pre>gi
     </div>
 </section>
 
